@@ -50,7 +50,7 @@ afterEvaluate {
             create<MavenPublication>("release") {
                 groupId = "com.aman.downloader"
                 artifactId = "s3uploader"
-                version = "v_1.0.3"
+                version = "v_1.0.4"
 
                 from(components["release"])
             }
